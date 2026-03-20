@@ -215,7 +215,7 @@ phone       INTEGER
 
 ```sql
 SELECT
-  AVG(LENGTH(name)) AS avg_name_length
+  AVG(LENGTH(name))  AS avg_name_length
 FROM
   customer
 WHERE
